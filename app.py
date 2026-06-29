@@ -18,7 +18,7 @@ st.set_page_config(
 # ============================================================
 @st.cache_data
 def carregar_base():
-    df = pd.read_csv("/content/data/base_motor.csv")
+    df = pd.read_csv("data/base_motor.csv")
     return df
 
 df = carregar_base()
